@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-form{
+    width: 350px;
+    background:rgba(230, 211, 211, 0.74);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: -2px 2px 8px #000002;
+}
+.div-form h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #212121;
+
+}
+.div-form .inp{
+    margin-bottom: 20px;
+
+}
+.div-form .inp input{
+    width: 100%;
+    margin-top: 8px;
+    outline: none;
+    border-radius: 10px;
+    padding: 13px;
+    border: 3px solid #33333346;
+    transition: 0.3s ease;
+}
+.div-form .inp input:focus{
+    border-color:black;
+}
+.div-form .inp label{
+    text-transform:  capitalize;
+    font-size: 15px;
+    color: #000002;
+
+
+}
+.div-form .forget{
+    text-align:right;
+
+
+}
+.div-form .forget a{
+    color: #000002;
+    font-size: 15px;
+
+
+}
+.div-form button{
+    width: 100%;
+    margin: 20px 0 ;
+    padding: 12px o;
+    font-size: 19px;
+    font-weight: bold;
+    background: #2a2a63;
+    color: #efff;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.div-form .line{
+    text-align: center;
+    font-size: 25px;
+    color: #000002;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600
+}
